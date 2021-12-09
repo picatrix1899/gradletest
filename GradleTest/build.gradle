@@ -41,4 +41,13 @@ publishing {
       }
     }
   }
+  
+  publications {
+  	maven(MavenPublication) {
+  		groupId = 'com.test'
+  		artifactId = 'GradleTest'
+
+		from components.java
+  	}
+  }
 }
