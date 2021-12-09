@@ -32,7 +32,6 @@ jobs:
       with:
         arguments: build
         build-root-directory: GradleTest
-        gradle-executable: GradleTest
 
     # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
     # the publishing section of your build.gradle
