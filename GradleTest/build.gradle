@@ -45,7 +45,7 @@ publishing {
   publications {
   	maven(MavenPublication) {
   		groupId = 'com.test'
-  		artifactId = 'GradleTest'
+  		artifactId = 'gradletest'
 
 		from components.java
   	}
