@@ -37,8 +37,8 @@ publishing {
       name = 'GitHubPackages'
       url = 'https://maven.pkg.github.com/picatrix1899/GradleTest'
       credentials {
-        username = 'picatrix1899'
-        password = System.getenv('GITHUB_TOKEN')
+        username = System.getenv('USERNAME')
+        password = System.getenv('TOKEN')
       }
     }
   }
@@ -52,4 +52,4 @@ publishing {
   }
 }
 
-logger.warn('MY TOKEN:' + System.getenv('GITHUB_TOKEN'))
+logger.warn('MY TOKEN:' + System.getenv('TOKEN'))
