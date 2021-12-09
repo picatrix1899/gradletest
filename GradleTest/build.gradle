@@ -41,6 +41,9 @@ publishing {
         password = System.getenv('GITHUB_TOKEN')
       }
     }
+    
+    println 'MY TOKEN:'
+    println System.getenv('GITHUB_TOKEN')
   }
   
   publications {
